@@ -1,0 +1,51 @@
+{
+  "name": "pv-om-va",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-draw": "^1.4.3",
+    "@turf/turf": "^6.5.0",
+    "@types/d3": "^7.4.3",
+    "axios": "^1.6.8",
+    "chroma-js": "^2.4.2",
+    "csv": "^6.3.8",
+    "csv-parse": "^5.5.5",
+    "d3": "^7.9.0",
+    "d3-array": "^3.2.4",
+    "d3-sankey": "^0.12.3",
+    "echarts": "^5.5.0",
+    "element-plus": "^2.7.0",
+    "mapbox-gl": "^3.1.2",
+    "papaparse": "^5.4.1",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@iconify-json/ant-design": "^1.1.16",
+    "@iconify-json/ep": "^1.1.15",
+    "@iconify-json/mdi": "^1.1.66",
+    "@types/chroma-js": "^2.4.4",
+    "@types/mapbox-gl": "^2.7.20",
+    "@types/node": "^20.12.7",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.10.2",
+    "events": "^3.3.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-icons": "^0.18.5",
+    "unplugin-vue-components": "^0.26.0",
+    "util": "^0.12.4",
+    "vite": "^5.0.8",
+    "vite-plugin-inspect": "^0.8.3",
+    "vue-tsc": "^1.8.25"
+  }
+}
